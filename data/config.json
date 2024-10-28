@@ -1,0 +1,14 @@
+{
+    "settings": [
+        {
+            "provider": "cloudflare",
+            "zone_identifier": "FILL_ZONE_IDENTIFIER_HERE",
+            "domain": "FILL_DOMAIN_HERE",
+            "ttl": 600,
+            "token": "FILL_API_TOKEN_HERE",
+            "proxied": true,
+            "ip_version": "ipv4",
+            "ipv6_suffix": ""
+        }
+    ]
+}

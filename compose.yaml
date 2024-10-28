@@ -1,0 +1,8 @@
+services:
+    ddns-updater:
+        ports:
+            - 8000:8000/tcp
+        volumes:
+            - ./data:/updater/data
+        image: qmcgaw/ddns-updater
+        restart: unless-stopped
